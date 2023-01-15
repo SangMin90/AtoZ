@@ -85,6 +85,13 @@
 			<version>1.70</version>
 		</dependency>
 
+		<!--LocalDateTime 직렬화/비직렬화-->
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+			<version>2.14.1</version>
+		</dependency>
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
